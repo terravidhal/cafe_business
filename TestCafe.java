@@ -23,7 +23,7 @@ public class TestCafe {
         //=========================================================================
         System.out.println("\n============== testAddCustomer ================");
         // --- Test 4 times ---
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 3; i++) {
             cafeJava.addCustomer();
             System.out.println("\n");
         }
